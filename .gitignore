@@ -1,0 +1,23 @@
+# node
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# build output
+dist/
+web/dist/
+api/dist/
+
+# env (keep .env.example instead)
+.env
+web/.env
+api/.env
+
+# editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# coverage
+coverage/
